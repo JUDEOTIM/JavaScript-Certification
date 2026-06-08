@@ -7,3 +7,13 @@ console.log("The Math.random() method returns a pseudo random number greater tha
 
 const randomNum = Math.random();
 console.log(randomNum);
+
+console.log("Now, generate a random number between two values.");
+
+const min = 1;
+const max = 100;
+
+const randomNum2 = Math.random() * (max - min) + min;
+console.log(randomNum2);
+
+console.log("The Math.floor() method rounds the value down to the nearest whole integer.");
