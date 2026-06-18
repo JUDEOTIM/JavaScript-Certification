@@ -1,3 +1,5 @@
+/*---
+
 function addTwoAndSeven() {
   return 2 + 7;
 }
@@ -9,3 +11,12 @@ function addThreeAndFour() {
 }
 
 console.log(addThreeAndFour());
+
+---*/
+
+function calculateSum(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(calculateSum(2, 5));
+
